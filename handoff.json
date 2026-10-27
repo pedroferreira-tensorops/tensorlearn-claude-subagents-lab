@@ -1,5 +1,10 @@
 {
-  "requirements": [],
-  "unresolved": [],
-  "sources": []
+  "requirements": [
+    {"id": "PROVIDER-BATCH", "statement": "Send at most 20 messages per batch.", "source": "fixtures/research/provider.md"},
+    {"id": "PROVIDER-RATE", "statement": "Stay within 50 message requests per second with bounded retries and no duplicate per result version.", "source": "fixtures/research/provider.md"},
+    {"id": "GATE", "statement": "Notify only after both clinical review and release.", "source": "fixtures/research/privacy.md"},
+    {"id": "NO-CLINICAL", "statement": "The body says only that an update is available; no diagnosis, test name, result value, medication or treatment.", "source": "fixtures/research/privacy.md"}
+  ],
+  "unresolved": [{"question": "Which channel delivers the notification?", "owner": "product owner and privacy owner"}],
+  "sources": [{"path": "fixtures/research/provider.md", "section": "Provider revision 4"}, {"path": "fixtures/research/privacy.md", "section": "Notification policy"}]
 }

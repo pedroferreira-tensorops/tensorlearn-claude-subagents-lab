@@ -1,8 +1,1 @@
-{
-  "purpose": "Independently verify requirements and diff",
-  "instructions": "TODO: define blind verification and findings.",
-  "requestedContext": [
-    "verification",
-    "diff"
-  ]
-}
+{"purpose": "Independently verify requirements and diff", "instructions": "Check the approved requirements against the diff without the author narrative. Report each finding with path, line, severity, requirement, evidence and recommendation; report only reproducible violations, and also check a clean patch.", "requestedContext": ["verification", "diff"]}

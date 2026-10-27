@@ -1,8 +1,1 @@
-{
-  "purpose": "Implement from approved handoff",
-  "instructions": "TODO: define implementation and testing process.",
-  "requestedContext": [
-    "implementation",
-    "handoff"
-  ]
-}
+{"purpose": "Implement from approved handoff", "instructions": "Implement src/notification.mjs from handoff.json and contracts.md only. Require reviewed and released, keep the message neutral with no clinical data, and batch at the handoff's maximum size. Add tests for the gate, privacy and batching.", "requestedContext": ["implementation", "handoff"]}
