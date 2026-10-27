@@ -1,7 +1,1 @@
-{
-  "purpose": "Research current constraints",
-  "instructions": "TODO: define source priority, evidence and handoff process.",
-  "requestedContext": [
-    "research"
-  ]
-}
+{"purpose": "Research current constraints", "instructions": "Read the research pack. Prefer the current provider and privacy sources over the archived note, which is superseded. Cite the source file and section for every requirement. Leave product decisions such as the channel unresolved with their owners.", "requestedContext": ["research"]}
